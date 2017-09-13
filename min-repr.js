@@ -6,7 +6,7 @@
         } else if (typeof(str) === 'string') {
             arr = str.split('');
         } else {
-            throw 'Parameter "str" should be a string or an array with comparable elements.';
+            throw new Error('Parameter "str" should be a string or an array with comparable elements.');
         }
 
         const s = Array.prototype.concat(arr, arr);

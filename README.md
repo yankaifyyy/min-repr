@@ -4,7 +4,7 @@ min-repr.js
 Minimal representation
 ---
 
-Compute the start index of the minimal representation(also called [Lexicographically minimal string rotation][wikipedia]) of a string. This is an implementation of the Booth's algorithm([Lexicographically least circular substrings][paper])
+Compute the start index of the minimal representation(also called [Lexicographically minimal string rotation][wikipedia]) of a string. This is an implementation of the Booth's O(n) algorithm([Lexicographically least circular substrings][paper])
 
 Use
 ---
