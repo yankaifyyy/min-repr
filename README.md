@@ -6,7 +6,7 @@ Minimal representation
 
 Compute the start index of the minimal representation(also called [Lexicographically minimal string rotation][wikipedia]) of a string. This is an implementation of the Booth's O(n) algorithm([Lexicographically least circular substrings][paper])
 
-Use
+Usage
 ---
 
 The `minRepr` function supports four kinds of parameters:
@@ -15,6 +15,8 @@ The `minRepr` function supports four kinds of parameters:
 - Plain string with comparer
 - Array (includes comparable elements)
 - Array with comparer
+
+The input parameter `comparer` is a comparison function, where `comparer(a, b) === 0` means equal relationship, any number <0 means less than, and >0 means larger than.
 
 Example
 ---
