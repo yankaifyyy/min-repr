@@ -3,12 +3,18 @@ const minRepr = require('../min-repr'),
 
 describe('min-repr.js', function() {
     it('should return 2 (plain string)', function() {
-        assert.strictEqual(minRepr('13123'), 2);
+        assert.strictEqual(minRepr('acabc'), 2);
     });
 
     it('should return 4 (string with comparer)', function() {
-        assert.strictEqual(minRepr('13123', function(a, b) {
-            return b - a;
+        assert.strictEqual(minRepr('acabc', function(a, b) {
+            if (a > b) {
+                return -1;
+            } else if (a < b) {
+                return 1;
+            } else {
+                return 0;
+            }
         }), 4);
     });
 

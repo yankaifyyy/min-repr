@@ -22,11 +22,19 @@ Example
 ---
 
 ```JavaScript
-var a = '13123',
+var a = 'acabc',
     b = [5, 0, 9, 7, 0];
 
 minRepr(a);                     // 2
-minRepr(a, (x, y) => y - x);    // 4
+minRepr(a, (x, y) => {
+    if (x > y) {
+        return -1;
+    } else if (x < y) {
+        return 1;
+    } else {
+        return 0;
+    }
+});                             // 4
 minRepr(b);                     // 4
 minRepr(b, (x, y) => y - x);    // 2
 ```
