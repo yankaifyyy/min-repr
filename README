@@ -1,0 +1,7 @@
+min-repr.js
+===
+
+Compute the start index of the minimal representation(also called [Lexicographically minimal string rotation][wikipedia]) of a string. This is an implementation of the Booth's algorithm([``Lexicographically least circular substrings''][paper])
+
+[wikipedia]: https://en.wikipedia.org/wiki/Lexicographically_minimal_string_rotation
+[paper]: http://www.sciencedirect.com/science/article/pii/0020019080901490

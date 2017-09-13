@@ -1,0 +1,23 @@
+{
+  "name": "min-repr",
+  "version": "1.0.0",
+  "description": "Minimal representation of string.",
+  "main": "min-repr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankaifyyy/min-repr.git"
+  },
+  "keywords": [
+    "string",
+    "algorithm"
+  ],
+  "author": "Windson Yan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yankaifyyy/min-repr/issues"
+  },
+  "homepage": "https://github.com/yankaifyyy/min-repr#readme"
+}
